@@ -3,7 +3,7 @@ var fs = require("fs");
 // var node_xj = require("xls-to-json");
 console.log(process.cwd());
 var XLSX = require("xlsx");
-var fl = "./util/report.xlsx";
+var fl = "report.xlsx";
 var wb = XLSX.readFile(fl);
 var ws = wb.Sheets[wb.SheetNames[0]];
 
